@@ -1,0 +1,40 @@
+/* Color Variables */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+:root {
+  --color-vermelho: #AD1717;
+  --color-laranja: #FF7F11;
+  --color-azul-claro: #05B2DC;
+  --color-verde: #49A078;
+  --color-verde-claro: #0FE181;
+  --color-azul-escuro: #175676;
+  --color-preto: #000000;
+  --color-branco: #ffffff;  
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Bebas Neue';
+}
+
+h1 {
+  color: var(--color-azul-escuro);
+  font-size: 85px;
+}
+
+h2 {
+  color: var(--color-branco);
+  font-size: 75px;
+}
+
+h2 span {
+  color: var(--color-preto);
+  font-family: 'Bebas Neue';
+}
+
+p, span, a { 
+  font-family: 'Roboto';
+}
+
+div {
+  display:flex;
+}
